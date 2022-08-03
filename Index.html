@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-in/Check-out</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="booking">
+            <div class="price-1">
+                <h1>₹7,047 <span>night</span></h1>
+                <h3><i class="fa-solid fa-star"></i>4.67 · <a href="#">6 reviews</a></h3>
+            </div>
+            <div class="form-field price-1">
+                <div class="box left">
+                    <label for="Check-in">CHECK-IN</label>
+                    <input type="date" id="Check-in" name="Check-in">
+                </div>
+                <div class="box right">
+                    <label for="Check-out">CHECKOUT</label>
+                    <input type="date" id="Check-out" name="Check-out">
+                </div>
+            </div>
+            <div class="guest-field">
+                <!-- <label for="guests">GUESTS</label> -->
+                <div class="dropdown">
+                    <input class="On-click" type="checkbox" id="On-click">
+                    <label class="box price-1" for="On-click">
+                        <div class="guest"><h3>GUESTS</h3><p>1 guest</p> </div>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </label>
+                    <div class="dropdown-list">
+                        <div class="dropdown-list-item price-1">
+                            <h2>Adults <span>Age 13+</span></h2>
+                            <ul class="price-1">
+                                <li><i class="fa-solid fa-minus"></i></li>
+                                <li>1</li>
+                                <li><i class="fa-solid fa-plus"></i></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-list-item price-1">
+                            <h2>Children <span>Ages 2-12</span></h2>
+                            <ul class="price-1">
+                                <li><i class="fa-solid fa-minus"></i></li>
+                                <li>0</li>
+                                <li><i class="fa-solid fa-plus"></i></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-list-item price-1">
+                            <h2>Infants <span>Under 2</span></h2>
+                            <ul class="price-1">
+                                <li><i class="fa-solid fa-minus"></i></li>
+                                <li>0</li>
+                                <li><i class="fa-solid fa-plus"></i></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-list-item price-1">
+                            <h2>Pets <p><a href="#">Bringing a service animal?</a></p>
+                            </h2>
+                            <ul class="price-1">
+                                <li><i class="fa-solid fa-minus"></i></li>
+                                <li>0</li>
+                                <li><i class="fa-solid fa-plus"></i></li>
+                            </ul>
+                        </div>
+                        <div class="text">
+                            <p>This place has a maximum of 2 guests, not including infants. Pets aren't allowed.</p>
+                            <h3>Close</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="reserve">Reserve</button>
+            <p class="center">You won't be charged yet</p>
+            <ul>
+                <li class="price-1">
+                    <a href="#">₹7,047 x 5night</a><span>₹35,235</span>
+                </li>
+                <li class="price-1">
+                    <a href="#">Service Fee</a><span>₹4,974</span>
+                </li>
+            </ul>
+            <div class="total price-1">
+                <p>Total before taxes</p>
+                <p>₹40,209</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
