@@ -111,10 +111,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     position: relative;
     background-color: #fff;
 }
-.guest h3{
-    font-size:12px;
-    font-weight:900;
+
+.guest h3 {
+    font-size: 12px;
+    font-weight: 900;
 }
+
 .On-click {
     display: none;
     width: 100%;
@@ -135,10 +137,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border-top: 0;
     border-radius: 0px 0px 10px 10px;
 }
+
 .On-click:checked~label {
-    outline:2px solid #000;
+    outline: 2px solid #000;
     border-radius: 10px;
 }
+
 .dropdown-list {
     width: 100%;
     padding: 30px 20px;
@@ -164,9 +168,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     display: block;
     line-height: 1.8;
 }
-.dropdown-list-item a{
-    font-size:16px;
+
+.dropdown-list-item a {
+    font-size: 16px;
 }
+
 .dropdown-list-item i {
     padding: 10px 11px;
     border: 1px solid #717171;
@@ -192,10 +198,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border-color: #ddd;
     color: #ddd;
 }
+
 .dropdown-list-item:nth-child(4) i:hover {
     border-color: #ddd;
     color: #ddd;
 }
+
 .dropdown-list-item i:hover {
     border: 1px solid #000000;
     color: #000000;
@@ -210,20 +218,23 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .text p {
     font-size: 16px;
 }
-.close{
+
+.close {
     background: rgb(255, 255, 255);
     text-decoration: underline;
     text-align: right;
-    padding:10px 15px;
+    padding: 10px 15px;
     font-weight: 700;
     border: 0;
     align-self: end;
     border-radius: 10px;
     cursor: pointer;
 }
-.close:hover{
+
+.close:hover {
     background: #F7F7F7;
 }
+
 .reserve {
     border: 0;
     width: 100%;
