@@ -210,13 +210,18 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .text p {
     font-size: 16px;
 }
-.text h3{
-    background: #fff;
+.close{
+    background: rgb(255, 255, 255);
     text-decoration: underline;
     text-align: right;
     padding:10px 15px;
+    font-weight: 700;
+    border: 0;
+    align-self: end;
+    border-radius: 10px;
+    cursor: pointer;
 }
-.text h3:hover{
+.close:hover{
     background: #F7F7F7;
 }
 .reserve {
